@@ -3,7 +3,6 @@ For Arduino library. This module has inherited "Stepper" module at Arduino Libra
 
 If you use this modules, you need to modify "Stepper.h" as below because of Inheritance.
 
-{{{
     void step(int number_of_steps);
 
     int version(void);
@@ -14,4 +13,3 @@ If you use this modules, you need to modify "Stepper.h" as below because of Inhe
 
     int direction;            // Direction of rotation
     unsigned long step_delay; // delay between steps, in ms, based on speed
-}}}
