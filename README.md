@@ -7,7 +7,7 @@ If you use this modules, you need to modify "Stepper.h" as below because of Inhe
 
     int version(void);
 
-//  private: <- comment out[br]
+//  private: <- comment out.  
   protected:  // <- add "protected:" keyword 
     void stepMotor(int this_step);
 
