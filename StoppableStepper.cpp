@@ -1,5 +1,5 @@
-#include "Arduino.h"
-#include "MotorCtrl.h"
+#include <Arduino.h>
+#include "StoppableStepper.h"
 
 StoppableStepper::StoppableStepper(int steps,
 				    int pin1,
